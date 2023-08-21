@@ -36,7 +36,6 @@ const App = () => {
         }
     };
     const onFinish = async (values) => {
-        console.log(values);
         const response = await fetchData(values);
         setResponse(response)
         formRef.current?.resetFields()
