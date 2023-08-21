@@ -3,9 +3,7 @@ import React from 'react'
 import { HomeOutlined, SearchOutlined } from "@ant-design/icons"
 import { Input } from 'antd';
 
-const Navbar = (props) => {
-    console.log("props", props)
-
+const Navbar = () => {
     return (
         <div style={{display:"flex", justifyContent:"space-between", margin:"2em"}}>
             <Space>
